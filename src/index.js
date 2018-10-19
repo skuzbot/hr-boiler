@@ -1,11 +1,18 @@
 import React from 'React';
 import ReactDOM from 'react-dom';
+import Search from './components/search.js';
 
 const App = () => {
   return (
-    <div>
-      <h1>I am an app!</h1>
-    </div>
+    <table>
+      <thead>
+        <tr>Search a Word!!</tr>
+      </thead>
+      <tbody>
+        <Search />
+      </tbody>
+    </table>
+     
   );
 };
 export default App;
